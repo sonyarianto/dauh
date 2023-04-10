@@ -16,11 +16,11 @@
 
 # dauh
 
-Detect popular CLI on your computer. Is PHP exists? Is Node.js exists? and many more.
+Detect well-known CLI on your computer. Is PHP exists? Is Node.js exists? and many more, along with its version.
 
 ## Overview
 
-Sometimes I need to check if a CLI exists on the computer and its version. Such as PHP, Node.js, Composer, and many more. I don't want to type the command and check the output. I want to check it programmatically. So I created this package.
+This tool is like a quick checkup for your computer. It will detect well-known CLI avaliability on your computer. It will also detect its version.
 
 ## Installation
 
