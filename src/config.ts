@@ -110,4 +110,9 @@ export const cliPromises = [
     command: "pwsh --version",
     regex: /^PowerShell\s+(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "Python (pip)",
+    command: "pip --version",
+    regex: /^pip\s+(\d+\.\d+\.\d+)/m,
+  }),
 ];
