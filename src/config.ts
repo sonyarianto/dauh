@@ -90,10 +90,14 @@ export const cliPromises = [
     command: "ruby --version",
     regex: /^ruby\s+(\d+\.\d+\.\d+)/m,
   }),
-  detector.getCliVersion({
-    name: "Node.js",
-    command: "node -v",
-    regex: /^v(\d+\.\d+\.\d+)/m,
+  new Promise((resolve) => {
+    return resolve({
+      version: process.version.startsWith("v")
+        ? process.version.slice(1)
+        : process.version,
+      cli: "node -v",
+      name: "Node.js",
+    });
   }),
   detector.getCliVersion({
     name: "Visual Studio Code",
