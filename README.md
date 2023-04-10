@@ -36,6 +36,11 @@ now you can call it by typing `dauh` in your terminal.
 
 ![Dauh](https://raw.githubusercontent.com/sonyarianto/dauh/main/dauh-0.1.0.jpg?202304102100)
 
+## FAQs
+
+- How to update? Just run `npm i -g dauh@latest` and your installation will be updated to the latest version.
+- How it works? This tool basically just opinionated aggregator of  "get version" for each well-known cli, e.g. we detect availability of npm by triggering `npm -v`
+
 ## License
 
 MIT
