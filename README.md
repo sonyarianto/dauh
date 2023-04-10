@@ -34,7 +34,7 @@ now you can call it by typing `dauh` in your terminal.
 
 ## Screenshot
 
-![Dauh](https://raw.githubusercontent.com/sonyarianto/dauh/main/dauh-0.1.0.jpg?token=GHSAT0AAAAAAB3UY4OWOHWQ6DH2AH6A7XOQZBUCUEA)
+![Dauh](https://raw.githubusercontent.com/sonyarianto/dauh/main/dauh-0.1.0.jpg?202304102100)
 
 ## License
 
