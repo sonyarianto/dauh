@@ -10,7 +10,7 @@
 <a href="https://www.npmjs.com/package/dauh" target="_blank">
  <img alt="npm" src="https://img.shields.io/npm/dt/dauh">
 </a>
-<a href="https://www.npmjs.com/package/jogja" target="_blank">
+<a href="https://www.npmjs.com/package/dauh" target="_blank">
  <img alt="npm" src="https://img.shields.io/npm/v/dauh">
 </a>
 
