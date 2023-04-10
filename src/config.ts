@@ -124,4 +124,9 @@ export const cliPromises = [
     command: "choco --version",
     regex: /^(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "winget",
+    command: "winget --version",
+    regex: /^v(\d+\.\d+\.\d+)/m,
+  }),
 ];
