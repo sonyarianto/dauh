@@ -95,4 +95,19 @@ export const cliPromises = [
     command: "node -v",
     regex: /^v(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "Visual Studio Code",
+    command: "code --version",
+    regex: /^(\d+\.\d+\.\d+)/m,
+  }),
+  detector.getCliVersion({
+    name: "pnpm",
+    command: "pnpm --version",
+    regex: /^(\d+\.\d+\.\d+)/m,
+  }),
+  detector.getCliVersion({
+    name: "PowerShell Core",
+    command: "pwsh --version",
+    regex: /^PowerShell\s+(\d+\.\d+\.\d+)/m,
+  }),
 ];
