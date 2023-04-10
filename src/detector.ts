@@ -24,12 +24,3 @@ export function getCliVersion(cli: Cli) {
     });
   });
 }
-
-export function getNodeJsVersion() {
-  const version = process.version.startsWith("v")
-    ? process.version.slice(1)
-    : process.version;
-  const cli = "node -v";
-
-  return { version, cli };
-}
