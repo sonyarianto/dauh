@@ -16,7 +16,7 @@
 
 # dauh
 
-Detect well-known CLI on your computer. Is PHP exists? Is Node.js exists? and many more, along with its version. This tool is like a quick checkup of several well-known cli.
+Detect well-known CLI on your computer. Is PHP exists? Is Node.js exists? and many more, along with its version. This tool is like a quick checkup of several well-known CLI.
 
 ## Installation
 
