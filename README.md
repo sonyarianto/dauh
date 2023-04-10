@@ -38,9 +38,9 @@ now you can call it by typing `dauh` in your terminal.
 
 ## FAQs
 
-- How to update? Just run `npm i -g dauh@latest` and your installation will be updated to the latest version.
-- How it works? This tool basically just opinionated aggregator of  "get version" for each well-known cli, e.g. we detect availability of npm by triggering `npm -v`.
-- I want to add missing cli, can I? Just open `src/config.ts` and add there. Test it by running `npx jiti ./src/index.ts` and pull request if you are confident.
+- **How to update?** Just run `npm i -g dauh@latest` and your installation will be updated to the latest version.
+- **How it works?** This tool basically just opinionated aggregator of  "get version" for each well-known cli, e.g. we detect availability of npm by triggering `npm -v`.
+- **I want to add missing cli, can I?** Just open `src/config.ts` and add there. Test it by running `npx jiti ./src/index.ts` and pull request if you are confident.
 
 ## License
 
