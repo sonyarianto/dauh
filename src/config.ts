@@ -119,4 +119,9 @@ export const cliPromises = [
     command: "pip --version",
     regex: /^pip\s+(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "Chocolatey",
+    command: "choco --version",
+    regex: /^(\d+\.\d+\.\d+)/m,
+  }),
 ];
