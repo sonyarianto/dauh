@@ -144,4 +144,24 @@ export const cliPromises = [
     command: "gem --version",
     regex: /(\d+\.\d+\.\d+)/,
   }),
+  detector.getCliVersion({
+    name: "Ruby (bundler)",
+    command: "bundle --version",
+    regex: /(\d+\.\d+\.\d+)/,
+  }),
+  detector.getCliVersion({
+    name: "Ruby (rails)",
+    command: "rails --version",
+    regex: /Rails\s+(\d+\.\d+\.\d+\.\d+)/m,
+  }),
+  detector.getCliVersion({
+    name: "Ruby (rake)",
+    command: "rake --version",
+    regex: /rake,\s+version\s+(\d+\.\d+\.\d+)/m,
+  }),
+  detector.getCliVersion({
+    name: "sqlite3",
+    command: "sqlite3 --version",
+    regex: /(\d+\.\d+\.\d+)/,
+  }),
 ];
