@@ -129,4 +129,9 @@ export const cliPromises = [
     command: "winget --version",
     regex: /^v(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "Homebrew",
+    command: "brew --version",
+    regex: /^Homebrew\s+(\d+\.\d+\.\d+)/m,
+  }),
 ];
