@@ -1,6 +1,6 @@
 {
   "name": "dauh",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Detect popular CLI on your computer. Is PHP exists? Is Node.js exists? and many more.",
   "main": "./dist/index.js",
   "scripts": {
