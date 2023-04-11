@@ -134,4 +134,14 @@ export const cliPromises = [
     command: "brew --version",
     regex: /^Homebrew\s+(\d+\.\d+\.\d+)/m,
   }),
+  detector.getCliVersion({
+    name: "Scoop",
+    command: "scoop --version",
+    regex: /^v(\d+\.\d+\.\d+)/m,
+  }),
+  detector.getCliVersion({
+    name: "Ruby (gem)",
+    command: "gem --version",
+    regex: /(\d+\.\d+\.\d+)/,
+  }),
 ];
