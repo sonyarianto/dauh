@@ -32,9 +32,9 @@
   "homepage": "https://github.com/sonyarianto/dauh#readme",
   "devDependencies": {
     "@types/cli-table": "^0.3.1",
-    "@types/node": "^18.15.11",
+    "@types/node": "^20.2.5",
     "jiti": "^1.18.2",
-    "prettier": "^2.8.7",
+    "prettier": "^2.8.8",
     "tsup": "^6.7.0"
   },
   "dependencies": {
